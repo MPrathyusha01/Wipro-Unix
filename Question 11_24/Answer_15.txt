@@ -1,0 +1,15 @@
+List of files in ascending order of their creation time
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix
+$ ls -ltr
+total 34
+drwxr-xr-x 1 Dhamo 197121     0 May 11 14:16 Question_1/   
+drwxr-xr-x 1 Dhamo 197121     0 May 11 14:49 Question_2/   
+drwxr-xr-x 1 Dhamo 197121     0 May 11 14:55 Question_3/   
+drwxr-xr-x 1 Dhamo 197121     0 May 11 15:03 Question_4/   
+drwxr-xr-x 1 Dhamo 197121     0 May 11 15:24 Question_5/   
+drwxr-xr-x 1 Dhamo 197121     0 May 11 15:30 Question_7_8/ 
+drwxr-xr-x 1 Dhamo 197121     0 May 11 16:08 Question_9_10/
+-rw-r--r-- 1 Dhamo 197121   192 May 11 16:19 Answer_11.txt 
+-rw-r--r-- 1 Dhamo 197121   192 May 12 11:31 Answer_12.txt 
+-rw-r--r-- 1 Dhamo 197121 25687 May 12 11:40 Answer_13.txt 

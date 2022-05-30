@@ -1,0 +1,31 @@
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ mkdir newdic
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ ls newdic
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ mkdir other
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ touch other/a other/b other/c
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ ls other
+a  b  c
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ mv other/a newdic/
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ mv other/b newdic/
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ mv other/c newdic/
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ ls newdic
+a  b  c
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_4
+$ ls other

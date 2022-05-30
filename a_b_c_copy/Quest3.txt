@@ -1,0 +1,28 @@
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ mkdir newdir
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ chmod 700 newdir
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ mkdir other
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ touch other/a other/b other/c
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ cp other/a newdir/
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ cp other/b newdir/
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ cp other/c newdir/
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ ls newdir
+a  b  c
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_3
+$ ls other
+a  b  c

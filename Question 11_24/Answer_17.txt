@@ -1,0 +1,6 @@
+Question 17: list only directories in root directories linux
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix
+$ ls -d */
+Question_1//  Question_3//  Question_5//    Question_9_10//
+Question_2//  Question_4//  Question_7_8//

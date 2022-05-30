@@ -1,0 +1,20 @@
+Question 18: List hidden files in oot directory
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix
+$ ls -al
+total 47
+drwxr-xr-x 1 Dhamo 197121     0 May 12 12:10 ./
+drwxr-xr-x 1 Dhamo 197121     0 May 10 15:41 ../
+-rw-r--r-- 1 Dhamo 197121   192 May 11 16:19 Answer_11.txt
+-rw-r--r-- 1 Dhamo 197121   192 May 12 11:31 Answer_12.txt
+-rw-r--r-- 1 Dhamo 197121 25687 May 12 11:40 Answer_13.txt
+-rw-r--r-- 1 Dhamo 197121   735 May 12 12:11 Answer_15.txt
+-rw-r--r-- 1 Dhamo 197121   807 May 12 12:02 Answer_16.txt
+-rw-r--r-- 1 Dhamo 197121   226 May 12 12:10 Answer_17.txt
+drwxr-xr-x 1 Dhamo 197121     0 May 11 14:16 Question_1/
+drwxr-xr-x 1 Dhamo 197121     0 May 11 14:49 Question_2/
+drwxr-xr-x 1 Dhamo 197121     0 May 11 14:55 Question_3/
+drwxr-xr-x 1 Dhamo 197121     0 May 11 15:03 Question_4/
+drwxr-xr-x 1 Dhamo 197121     0 May 11 15:24 Question_5/
+drwxr-xr-x 1 Dhamo 197121     0 May 11 15:30 Question_7_8/
+drwxr-xr-x 1 Dhamo 197121     0 May 11 16:08 Question_9_10/

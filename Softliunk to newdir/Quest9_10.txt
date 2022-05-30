@@ -1,0 +1,31 @@
+Question 9 and 10
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_9  
+$ mkdir newdir
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_9
+$ ln -s newdir newdir-sl
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_9
+$ stat newdir
+  File: newdir
+  Size: 0               Blocks: 0          IO Block: 65536  directory
+Device: 2a10a05ch/705732700d    Inode: 19140298416426245  
+Links: 1
+Access: (0755/drwxr-xr-x)  Uid: (197609/   Dhamo)   Gid: (197121/ UNKNOWN)
+Access: 2022-05-11 15:33:29.918679500 +0530
+Modify: 2022-05-11 15:33:11.686306100 +0530
+Change: 2022-05-11 15:33:11.686306100 +0530
+ Birth: 2022-05-11 15:33:11.686306100 +0530
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_9  
+$ stat newdir-sl
+  File: newdir-sl
+  Size: 0               Blocks: 0          IO Block: 65536  directory
+Device: 2a10a05ch/705732700d    Inode: 3659174697322675  Links: 1
+Access: (0755/drwxr-xr-x)  Uid: (197609/   Dhamo)   Gid: (197121/ UNKNOWN)
+Access: 2022-05-11 15:33:29.917679600 +0530
+Modify: 2022-05-11 15:33:29.917679600 +0530
+Change: 2022-05-11 15:33:29.917679600 +0530
+ Birth: 2022-05-11 15:33:29.917679600 +0530
+
+ The inlode of newdir and the softlink newdir is not same

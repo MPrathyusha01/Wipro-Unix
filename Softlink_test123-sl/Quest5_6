@@ -1,0 +1,29 @@
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_5
+$ touch test123
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_5
+$ ln -s test123 test123-sl
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_5
+$ stat test123
+  File: test123
+  Size: 0               Blocks: 0          IO Block: 65536  regular empty file
+Device: 2a10a05ch/705732700d    Inode: 8444249301626393  Links: 1
+Access: (0644/-rw-r--r--)  Uid: (197609/   Dhamo)   Gid: (197121/ UNKNOWN)    
+Access: 2022-05-11 15:17:02.394718600 +0530
+Modify: 2022-05-11 15:17:02.394718600 +0530
+Change: 2022-05-11 15:17:02.394176300 +0530
+ Birth: 2022-05-11 15:17:02.394176300 +0530
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_5
+$ stat test123-sl
+  File: test123-sl
+  Size: 0               Blocks: 0          IO Block: 65536  regular empty file
+Device: 2a10a05ch/705732700d    Inode: 53761720551737492  Links: 1
+Access: (0644/-rw-r--r--)  Uid: (197609/   Dhamo)   Gid: (197121/ UNKNOWN)
+Access: 2022-05-11 15:17:25.264269600 +0530
+Modify: 2022-05-11 15:17:02.394718600 +0530
+Change: 2022-05-11 15:17:02.394176300 +0530
+ Birth: 2022-05-11 15:17:25.264269600 +0530
+
+ The inode of test123 and inode of test123-sl is different

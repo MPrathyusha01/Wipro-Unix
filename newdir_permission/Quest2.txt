@@ -1,0 +1,5 @@
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_2
+$ mkdir newdir
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_2
+$ chmod 700 newdir

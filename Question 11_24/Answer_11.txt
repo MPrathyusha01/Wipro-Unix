@@ -1,0 +1,6 @@
+ANSWER- 11:
+The command "umask" is used to set the permissions for directories and files to the user who creates it.
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_9
+$ umask
+0022

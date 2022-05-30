@@ -1,0 +1,30 @@
+Question 7 and 8
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_7
+$ touch test123
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_7
+$ ln -s test123 test123-hl
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_7
+$ stat test123
+  File: test123
+  Size: 0               Blocks: 0          IO Block: 65536  regular empty file
+Device: 2a10a05ch/705732700d    Inode: 31806672368362250  Links: 1
+Access: (0644/-rw-r--r--)  Uid: (197609/   Dhamo)   Gid: (197121/ UNKNOWN)    
+Access: 2022-05-11 15:28:53.228342200 +0530
+Modify: 2022-05-11 15:28:53.228342200 +0530
+Change: 2022-05-11 15:28:53.227779600 +0530
+ Birth: 2022-05-11 15:28:53.227779600 +0530
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_7
+$ stat test123-hl
+  File: test123-hl
+  Size: 0               Blocks: 0          IO Block: 65536  regular empty file
+Device: 2a10a05ch/705732700d    Inode: 48413695994319887  Links: 1
+Access: (0644/-rw-r--r--)  Uid: (197609/   Dhamo)   Gid: (197121/ UNKNOWN)
+Access: 2022-05-11 15:30:48.894524400 +0530
+Modify: 2022-05-11 15:28:53.228342200 +0530
+Change: 2022-05-11 15:28:53.227779600 +0530
+ Birth: 2022-05-11 15:30:48.894524400 +0530
+ 

@@ -1,0 +1,16 @@
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_1
+$ touch test123
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_1
+$ chmod g-w,o-w test123
+
+Dhamo@prathyusha MINGW64 ~/Desktop/Wipro/Unix/Question_1
+$ stat test123
+  File: test123
+  Size: 0               Blocks: 0          IO Block: 65536  regular empty file
+Device: 2a10a05ch/705732700d    Inode: 14073748835838573  Links: 1
+Access: (0644/-rw-r--r--)  Uid: (197609/   Dhamo)   Gid: (197121/ UNKNOWN)    
+Access: 2022-05-11 14:12:32.502520300 +0530
+Modify: 2022-05-11 14:12:32.502520300 +0530
+Change: 2022-05-11 14:12:32.502457700 +0530
+ Birth: 2022-05-11 14:12:32.501457400 +0530

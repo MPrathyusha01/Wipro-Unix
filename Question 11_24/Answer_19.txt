@@ -1,0 +1,3 @@
+Whn a irectory is created it has two link. 
+1) Link to itself
+2) Link to its parent 
